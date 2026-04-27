@@ -1,0 +1,29 @@
+# WayPoint Configuration
+# Generated: 2026-04-27T12:28:29.827Z
+
+project:
+  name: gooof
+  type: brownfield
+  track: solo
+  created: 2026-04-27T12:28:26.162Z
+stack:
+  id: nextjs-app-router
+  language: typescript
+  auth:
+    strategy: none
+architecture:
+  primary: ddd
+  modules: []
+deployment:
+  targets:
+    - none
+  primary: none
+  environments:
+    - development
+    - staging
+    - production
+testing:
+  unit: vitest
+  linter: biome
+  formatter: biome-format
+  typeChecker: tsc
